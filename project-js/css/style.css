@@ -1,0 +1,136 @@
+/* Google Font - Open Sans - Light 300 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+body{
+    color: #3a3a3a;
+    font-family: 'Open Sans', sans-serif;
+}
+cursor{
+    cursor: pointer;
+}
+main{
+    background-color: #e4e2e2;
+    margin-top: 50px;
+    padding: 50px 0px;
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 100px;
+    filter: drop-shadow(3px 4px 4px rgba(0,0,0,0.5));
+}
+img{
+   object-fit: cover;
+   filter: blur(2px);
+  -webkit-filter: blur(2px);
+    filter: brightness(40%);
+}
+
+h3{
+    position: relative;
+    bottom: 100px;
+    color: white;
+}
+
+.category-wrapper{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+h3{
+    margin-top: 35px;
+}
+#p{
+    text-align: center;
+}
+.main-h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#category-animals, #category-geography, #category-random, #category-food, #category-drinks, #category-planets{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+#category-random:hover{
+    transform: translateY(-4px);
+}
+#category-geography:hover{
+    transform: translateY(-4px);
+}
+#category-animals:hover{
+    transform: translateY(-4px);
+}
+#category-food:hover{
+    transform: translateY(-4px);
+}
+#category-drinks:hover{
+    transform: translateY(-4px);
+}
+#category-planets:hover{
+    transform: translateY(-4px);
+}
+#contentDiv{
+    text-align: center;
+}
+#keyboard{
+  margin-top: 50px;
+  text-align: center;
+  padding: 0px 15px;
+  width: 600px;
+  margin: 0 auto;
+  
+}
+#reset{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    margin-left: 47.5%;
+    margin-top: 20px;
+    filter: drop-shadow(4px 4px 3px rgb(76, 76, 76));
+    font-size: 18px;
+    background-color: #e6e6e6;
+    font-family: 'Open Sans', sans-serif;
+    color: #3a3a3a;
+    font-weight: 600;
+}
+#reset:hover{
+    filter: drop-shadow(4px 4px 3px rgba(0,0,0.5)); 
+    transform: translateY(-4px);
+}
+#box{
+    margin-left: 80px;
+}
+#wordContainer {
+   text-align: center;
+}
+.btn{
+    margin:5px 5px ;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    filter: drop-shadow(2px 3px 4px rgba(0,0,0,0.5));
+}
+.lifes{
+    text-align: center;
+    padding: 20px 0px;
+    width: 500px;
+    margin: 0 auto;
+}
+.heart {
+    margin-left:  10px;
+    fill: #b51441;
+    position: relative;
+    top: 5px;
+    width: 50px;
+  }
+
