@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Project JS</title>
+        <!-- Style -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/lightslider.css" rel="stylesheet">
+        <script src="Js/jquery.js"></script>
+        <script src="Js/lightslider.js"></script>
+    </head>
+    <body>
+        
+        <main class="main">
+            <h1 class="main-h1">Please choose a category to guess a word</h1>
+            <section class="slider">
+            <section class="category-wrapper">
+                <ul id="autoWidth" class="cs-hidden">
+                    <li class="item-a">
+                        <section class = "category-animals" id="category-animals">
+                            <img class="animals" src="images/panda.jpg" alt="panda" width="200" height="100">
+                            <h3>Animals</h3>
+                        </section>
+                    </li>
+                    <li class="item-b">
+                        <section class = "category-geography" id="category-geography">
+                            <img  class="geography" src="images/globe.jpg" alt="globe" width="200" height="100">
+                            <h3>Geography</h3>
+                        </section>
+                    </li>
+                    <li class="item-c">
+                        <section class = "category-random" id="category-random">
+                            <img class = "random" src="images/random.jpg" alt="random-image" width="200" height="100">
+                            <h3>Random</h3>
+                        </section>
+                    </li>
+                    <li class="item-d">
+                        <section class="category-food" id="category-food">
+                            <img class="food" src="images/food.jpg" alt="food" width="200" height="100">
+                            <h3>Food</h3>
+                        </section>
+                    </li>
+                    <li class="item-e">
+                        <section class="category-planets" id="category-planets">
+                            <img class="planets" src="images/planets.jpg" alt="planets" width="200" height="100">
+                            <h3>Planets</h3>
+                        </section>
+                    </li>
+                </ul>
+            </section>
+            </section>
+          
+        <section id="contentDiv"></section>
+        <div class="container">
+            <p id="p"></p>
+            <!-- The word to be guessed -->
+            <p id="wordContainer"></p>
+            <div id="keyboard" style="visibility: hidden;"></div>
+            <!-- <div id="keyboard"></div> -->
+          </div> 
+         
+        <!-- Hearts  -->
+        <section class="lifes" style="visibility: hidden;">
+            <!-- <section class="lifes" > -->
+            <h2>Lifes</h2>
+            <svg id = "heart-01" class="heart" viewBox="0 0 32 29.6">
+                <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+                  c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+            </svg> 
+            <svg id = "heart-02" class="heart" viewBox="0 0 32 29.6">
+                <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+                  c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+            </svg> 
+            <svg id = "heart-03" class="heart" viewBox="0 0 32 29.6">
+                <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+                  c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+            </svg> 
+            <svg id = "heart-04" class="heart" viewBox="0 0 32 29.6">
+                <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+                  c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+            </svg> 
+            <svg id = "heart-05" class="heart" viewBox="0 0 32 29.6">
+                <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+                  c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+            </svg> 
+        </section>
+        <button id="reset" style="visibility: hidden;">Reset</button>
+        <!-- <button id="reset">Reset</button> -->
+    </main>
+        <script src="Js/script.js"></script>
+    </body>
+</html>
